@@ -41,6 +41,9 @@ class World():
         return self.num_acts
         
     def get_valid_acts(self, s):
+        
+    def get_valid_acts(self, s):
+        """TODO"""
         acts = rl_helper.get_valid_acts(self, s)
         return acts
         
@@ -68,10 +71,12 @@ class Agent():
         return max_a
         
     def make_move(self, s, valid_moves):   
+        """TODO"""
         act = rl_helper.make_move(self, s, valid_moves)
         return act
         
     def update_Q(self, s, a, next_s, r):
+        """TODO"""
         rl_helper.update_Q(self, s, a, next_s, r)
         return
         
